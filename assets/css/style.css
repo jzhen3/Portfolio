@@ -157,6 +157,11 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.github-button{
+  text-align: center;
+  font-size: larger;
+  border: 5px solid gold;
+}
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -319,7 +324,7 @@ section {
 }
 
 .section-bg {
-  background: #cbe1eb;
+  background: #ffffff;
 }
 
 
@@ -467,7 +472,7 @@ section {
   width: 200px;
   height: 50px;
   border: .1rem solid rgb(5, 2, 0);
-  background-color: #cbe1eb;
+  background-color: #ffffff;
 }
 
 .resume .logo {
@@ -476,8 +481,8 @@ section {
 }
 
 .resume-img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   float: right;
 }
 
@@ -691,9 +696,6 @@ section {
   color: #8C6C89;
 }
 
-
-
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -783,16 +785,26 @@ a.button {
 }
 
 /*--------------------------------------------------------------
-# Disclaimer
+# Submit Message
 --------------------------------------------------------------*/
-.disclaimer .container h5 {
-  transform: translate(0px, 0px);
-  padding: 0 0 0 0;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 2px;
-  color: #000000;
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.submit-section {
+  margin-right: 300px;
+  margin-top: 0px;
+}
+
+input[type="message"],
+textarea {
+    height: 100px;
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Footer

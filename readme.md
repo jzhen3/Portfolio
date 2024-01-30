@@ -1,0 +1,3 @@
+Using historical data, our team created a Streamlit-based web application with evaluation and query capabilities for the summer hackathon to ascertain whether new hires require app service access.
+
+In a subsequent phase, we effectively proposed app service access through the construction of a CatBoost model, decreasing manager check time, and increasing prediction accuracy through hyper-tuning gradient-boosted tree learning rate, iterations, and depth, with the functions to shorten onboarding wait times and ease off-boarding audits.
